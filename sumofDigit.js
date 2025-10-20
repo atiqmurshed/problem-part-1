@@ -4,7 +4,7 @@ function sumOfDigit(num) {
     while(num > 0){
         let digit = num % 10;
         sum = digit + sum;
-        num = Math.floor(num / 10)
+        num = Math.floor(num / 10);
     }
     return sum;
 }
